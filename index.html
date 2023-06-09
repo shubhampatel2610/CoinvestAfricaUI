@@ -17,7 +17,8 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div class="home">
+  <section>
+    <div class="home-section">
         <nav class="navbar navbar-expand-lg custom-navbar">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,7 +35,7 @@
                   
                 <ul class="navbar-nav my-auto mb-lg-0 ms-auto">
                   <li class="nav-item mx-4">
-                    <a class="nav-link d-flex justify-content-center" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope svg-icons" viewBox="0 0 16 16">
+                    <a class="nav-link d-flex justify-content-center" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
                       <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
                     </svg></a>
                   </li>
@@ -65,7 +66,7 @@
           </nav>
         <div class="bottom-bar">
             <div>
-              <img src="/public/person/home-user-dp.jpg" alt="">
+              <img src="./public/person/user.png" alt="" class="ms-1" height="100%" width="20%">
             </div>
             <div class="profile-menu">
               <a href="" class="p-3 fs-1">Profile</a>
@@ -82,10 +83,371 @@
             </div>
         </div>
     </div>
-    <div>
-        <h1>Body bar</h1>
+  </section>
+
+  <section>
+    <div class="body-section">
+        <div class="flex-row d-flex justify-content-center mt-5 mb-5">
+          
+            <div class="col-md-4 d-flex flex-column left-section">
+              <div class="card mb-5">
+                <div class="card-header d-flex flex-row">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class=" my-auto bi bi-geo-alt me-3" viewBox="0 0 16 16">
+                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+                  <p class=" my-auto ">
+                    Lives in Midrand, Gauteng
+                  </p>
+                </div>
+              </div>
+              
+              <div class="card mb-5">
+                <div class="card-header d-flex flex-row">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="my-auto bi bi-house me-3" viewBox="0 0 16 16">
+                    <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+                  </svg>
+                  <p class=" my-auto ">
+                    From Tembisa, Gauteng
+                  </p>
+                </div>
+              </div>
+
+              <div class="card mb-5">
+                <div class="card-header d-flex flex-row">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="my-auto bi bi-info-circle me-3" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                  </svg>
+                  <p class=" my-auto fs-3">
+                    Info
+                  </p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">Web, Game and App developer | Server technician | Founder of @bongodigitalagency & @onerhosting</p>
+                </div>
+              </div>
+
+              <div class="card mb-5">
+                <div class="card-header d-flex flex-row">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="me-3 my-auto bi bi-file-person" viewBox="0 0 16 16">
+                    <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z"/>
+                    <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg>
+                  <p class=" my-auto fs-3">
+                    About
+                  </p>
+                </div>
+                <div class="card-body">
+                  <p class="card-text" style="font-size: 12px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Est ante in nibh mauris cursus mattis molestie a iaculis. Blandit libero volutpat sed cras ornare arcu. Dictum varius duis at consectetur lorem donec massa. Bibendum neque egestas congue quisque egestas diam in. Nisi est sit amet facilisis magna. Et egestas quis ipsum suspendisse ultrices gravida. Nulla pellentesque dignissim enim sit amet venenatis urna cursus. Adipiscing elit pellentesque habitant morbi tristique senectus et. Consectetur adipiscing elit ut aliquam. Diam ut venenatis tellus in metus. Vulputate dignissim suspendisse in est. Vestibulum sed arcu non odio euismod lacinia at. Et malesuada fames ac turpis egestas integer eget. Dictum varius duis at consectetur. Interdum velit euismod in pellentesque.
+
+                    Hendrerit gravida rutrum quisque non tellus orci. Viverra orci sagittis eu volutpat odio. Et molestie ac feugiat sed lectus vestibulum mattis. Ipsum dolor sit amet consectetur adipiscing elit duis tristique. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed. Nunc non blandit massa enim nec. Leo urna molestie at elementum eu facilisis sed odio. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare. Volutpat lacus laoreet non curabitur gravida arcu ac. Nunc sed augue lacus viverra vitae congue eu consequat ac. Sed ullamcorper morbi tincidunt ornare massa eget. Amet purus gravida quis blandit turpis. Lorem mollis aliquam ut porttitor leo a diam. Congue quisque egestas diam in arcu cursus euismod. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Fringilla ut morbi tincidunt augue interdum velit. Consequat interdum varius sit amet mattis. Enim nunc faucibus a pellentesque. Congue nisi vitae suscipit tellus mauris.</p>
+                </div>
+              </div>
+
+              <div class="card mb-5">
+                <div class="card-header d-flex flex-row">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="my-auto me-3 bi bi-card-image" viewBox="0 0 16 16">
+                    <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                    <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z"/>
+                  </svg>
+                  <p class=" my-auto fs-3">
+                    Images
+                  </p>
+                </div>
+                <div class="card-body" style="height: 500px;">
+                  
+                </div>
+              </div>
+
+              <div class="card mb-5">
+                <div class="card-header d-flex flex-row">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="me-3 my-auto bi bi-person-rolodex" viewBox="0 0 16 16">
+                    <path d="M8 9.05a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
+                    <path d="M1 1a1 1 0 0 0-1 1v11a1 1 0 0 0 1 1h.5a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5.5.5 0 0 1 1 0 .5.5 0 0 0 .5.5h.5a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H6.707L6 1.293A1 1 0 0 0 5.293 1H1Zm0 1h4.293L6 2.707A1 1 0 0 0 6.707 3H15v10h-.085a1.5 1.5 0 0 0-2.4-.63C11.885 11.223 10.554 10 8 10c-2.555 0-3.886 1.224-4.514 2.37a1.5 1.5 0 0 0-2.4.63H1V2Z"/>
+                  </svg>
+                  <p class="my-auto fs-3">
+                    Friends
+                  </p>
+                </div>
+                <div class="card-body">
+                  <div class="friends d-flex justify-content-center flex-row mb-5">
+                    <div class="friend-img" style="width: 30%;">
+                      <img src="./public/person/user.png" alt="" height="100px" width="100px">
+                    </div>
+                    <div class="friend-details ms-3">
+                      <h5>Sazokuhle Mlipha</h5>
+                      <p>Graphic Designer Student</p>
+                      <button class="btn btn-primary">Add to friends</button>
+                    </div>
+                  </div>
+                  <div class="friends d-flex justify-content-center flex-row mb-5">
+                    <div class="friend-img" style="width: 30%;">
+                      <img src="./public/person/user.png" alt="" height="100px" width="100px">
+                    </div>
+                    <div class="friend-details ms-3">
+                      <h5>Sazokuhle Mlipha</h5>
+                      <p>Graphic Designer Student</p>
+                      <button class="btn btn-primary">Add to friends</button>
+                    </div>
+                  </div>
+                  <div class="friends d-flex justify-content-center flex-row mb-5">
+                    <div class="friend-img" style="width: 30%;">
+                      <img src="./public/person/user.png" alt="" height="100px" width="100px">
+                    </div>
+                    <div class="friend-details ms-3">
+                      <h5>Sazokuhle Mlipha</h5>
+                      <p>Graphic Designer Student</p>
+                      <button class="btn btn-primary">Add to friends</button>
+                    </div>
+                  </div>
+                  <div class="friends d-flex justify-content-center flex-row mb-5">
+                    <div class="friend-img" style="width: 30%;">
+                      <img src="./public/person/user.png" alt="" height="100px" width="100px">
+                    </div>
+                    <div class="friend-details ms-3">
+                      <h5>Sazokuhle Mlipha</h5>
+                      <p>Graphic Designer Student</p>
+                      <button class="btn btn-primary">Add to friends</button>
+                    </div>
+                  </div>
+                  <div class="friends d-flex justify-content-center flex-row mb-5">
+                    <div class="friend-img" style="width: 30%;">
+                      <img src="./public/person/user.png" alt="" height="100px" width="100px">
+                    </div>
+                    <div class="friend-details ms-3">
+                      <h5>Sazokuhle Mlipha</h5>
+                      <p>Graphic Designer Student</p>
+                      <button class="btn btn-primary">Add to friends</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+          
+          
+          <div class="col-md-6 d-flex flex-column right-section">
+            <div class="card mb-5 rounded-bottom-5">
+              <div class="card-header d-flex flex-row">
+                <img src="./public/person/user.png" alt="" class="ms-1 me-2" height="100%" width="10%">
+                <p class="my-auto fs-3">
+                  Kgotso Matlhabe
+                </p>
+                <p class="ms-auto my-auto">
+                  2 DAYS
+                </p>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Ipsum consequat nisl vel pretium lectus quam id. Egestas integer eget aliquet nibh praesent. Condimentum mattis pellentesque id nibh tortor id aliquet lectus. Urna et pharetra pharetra massa massa ultricies mi. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Morbi tristique senectus et netus et malesuada fames. Scelerisque in dictum non consectetur a erat nam at lectus. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Mauris a diam maecenas sed enim ut sem. A pellentesque sit amet porttitor eget dolor.</p>
+              </div>
+              <div class="card-footer d-flex flex-row">
+                <a class="nav-link d-flex justify-content-center mx-3" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M6.002 5.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"/>
+                  <path d="M1.5 2A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm13 1a.5.5 0 0 1 .5.5v6l-3.775-1.947a.5.5 0 0 0-.577.093l-3.71 3.71-2.66-1.772a.5.5 0 0 0-.63.062L1.002 12v.54A.505.505 0 0 1 1 12.5v-9a.5.5 0 0 1 .5-.5h13z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-3" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M6 6.883v4.234a.5.5 0 0 0 .757.429l3.528-2.117a.5.5 0 0 0 0-.858L6.757 6.454a.5.5 0 0 0-.757.43z"/>
+                  <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-3" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                  <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-3" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M12.5 16a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm1.679-4.493-1.335 2.226a.75.75 0 0 1-1.174.144l-.774-.773a.5.5 0 0 1 .708-.708l.547.548 1.17-1.951a.5.5 0 1 1 .858.514ZM11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0ZM8 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+                  <path d="M8.256 14a4.474 4.474 0 0 1-.229-1.004H3c.001-.246.154-.986.832-1.664C4.484 10.68 5.711 10 8 10c.26 0 .507.009.74.025.226-.341.496-.65.804-.918C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4s1 1 1 1h5.256Z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-3" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-3" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                </svg></a>
+                <button class="btn btn-primary ms-auto me-3">Post</button>
+              </div>
+            </div>
+
+
+            <div class="card mb-5 rounded-bottom-5">
+              <div class="card-header d-flex flex-row">
+                <img src="./public/person/user.png" alt="" class="ms-1 me-2" height="100%" width="10%">
+                <p class="my-auto fs-3">
+                  Kgotso Matlhabe
+                </p>
+                <p class="ms-auto my-auto">
+                  2 DAYS
+                </p>
+              </div>
+              <div class="card-body">
+                <p class="card-text">vulputate sapien nec. Morbi tristique senectus et netus et malesuada fames. Scelerisque in dictum non consectetur a erat nam at lectus. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Mauris a diam maecenas sed enim ut sem. A pellentesque sit amet porttitor eget dolor. Ipsum consequat nisl vel pretium lectus quam id. Egestas integer eget aliquet nibh praesent. Condimentum mattis pellentesque id nibh tortor id aliquet lectus. Urna et pharetra pharetra massa massa ultricies mi. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Phasellus faucibus scelerisque eleifend donec pretium </p>
+              </div>
+              <div class="card-footer d-flex justify-content-center flex-row">
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+                  <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                </svg></a>
+              </div>
+            </div>
+
+
+            <div class="card mb-5 rounded-bottom-5">
+              <div class="card-header d-flex flex-row">
+                <img src="./public/person/user.png" alt="" class="ms-1 me-2" height="100%" width="10%">
+                <p class="my-auto fs-3">
+                  Kgotso Matlhabe
+                </p>
+                <p class="ms-auto my-auto">
+                  2 DAYS
+                </p>
+              </div>
+              <div class="card-body">
+                <div class="test-title d-flex flex-row mx-5 py-auto pt-2 ps-2 mb-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="me-3 bi bi-envelope svg-icons" viewBox="0 0 16 16">
+                    <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+                  </svg>
+                  <h5>Test</h5>
+                </div>
+                <div class="test-details mx-auto">
+                  <h5>Test 1</h5>
+                  <div class="test-bar"></div>
+                  <h5>Test 2</h5>
+                  <div class="test-bar"></div>
+                  <h5>Test 1</h5>
+                  <div class="test-bar"></div>
+                  <h5>Test 2</h5>
+                  <div class="test-bar"></div>
+                  <h5>Test 1</h5>
+                  <div class="test-bar"></div>
+                </div>
+              </div>
+              <div class="card-footer d-flex justify-content-center flex-row">
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+                  <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                </svg></a>
+              </div>
+            </div>
+
+
+
+            <div class="card mb-5 rounded-bottom-5">
+              <div class="card-header d-flex flex-row">
+                <img src="./public/person/user.png" alt="" class="ms-1 me-2" height="100%" width="10%">
+                <p class="my-auto fs-3">
+                  Ahamadu Hassani
+                </p>
+                <p class="ms-auto my-auto">
+                  14 Hrs
+                </p>
+              </div>
+              <div class="card-body">
+                <p class="card-text">Ipsum consequat nisl vel pretium lectus quam id. Egestas integer eget aliquet nibh praesent. Condimentum mattis pellentesque id nibh tortor id aliquet lectus. Urna et pharetra pharetra massa massa ultricies mi. Ornare massa eget egestas purus viverra accumsan in nisl nisi. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec. Morbi tristique senectus et netus et malesuada fames. Scelerisque in dictum non consectetur a erat nam at lectus. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Mauris a diam maecenas sed enim ut sem. A pellentesque sit amet porttitor eget dolor.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-center flex-row">
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+                  <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                </svg></a>
+              </div>
+            </div>
+
+
+
+            <div class="card mb-5 rounded-bottom-5">
+              <div class="card-header d-flex flex-row">
+                <img src="./public/person/user.png" alt="" class="ms-1 me-2" height="100%" width="10%">
+                <p class="my-auto fs-3">
+                  Zamokuhle Nomvelo Mlipha
+                </p>
+                <p class="ms-auto my-auto">
+                  2 DAYS
+                </p>
+              </div>
+              <div class="card-body">
+                <div class="test-title d-flex flex-row mx-5 py-auto pt-2 ps-2 mb-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="me-3 bi bi-envelope svg-icons" viewBox="0 0 16 16">
+                    <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2z"/>
+                  </svg>
+                  <h5>Test</h5>
+                </div>
+                <div class="test-details mx-auto">
+                  <h5>Test 1</h5>
+                  <div class="test-bar"></div>
+                  <h5>Test 2</h5>
+                  <div class="test-bar"></div>
+                  <h5>Test 1</h5>
+                  <div class="test-bar"></div>
+                  <h5>Test 2</h5>
+                  <div class="test-bar"></div>
+                  <h5>Test 1</h5>
+                  <div class="test-bar"></div>
+                </div>
+              </div>
+              <div class="card-footer d-flex justify-content-center flex-row">
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M2 1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h9.586a2 2 0 0 1 1.414.586l2 2V2a1 1 0 0 0-1-1H2zm12-1a2 2 0 0 1 2 2v12.793a.5.5 0 0 1-.854.353l-2.853-2.853a1 1 0 0 0-.707-.293H2a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12z"/>
+                  <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path d="M11 5.466V4H5a4 4 0 0 0-3.584 5.777.5.5 0 1 1-.896.446A5 5 0 0 1 5 3h6V1.534a.25.25 0 0 1 .41-.192l2.36 1.966c.12.1.12.284 0 .384l-2.36 1.966a.25.25 0 0 1-.41-.192Zm3.81.086a.5.5 0 0 1 .67.225A5 5 0 0 1 11 13H5v1.466a.25.25 0 0 1-.41.192l-2.36-1.966a.25.25 0 0 1 0-.384l2.36-1.966a.25.25 0 0 1 .41.192V12h6a4 4 0 0 0 3.585-5.777.5.5 0 0 1 .225-.67Z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/>
+                </svg></a>
+                <a class="nav-link d-flex justify-content-center mx-4" style="--bs-bg-opacity: .5;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope mt-1 svg-icons" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M14.854 4.854a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 4H3.5A2.5 2.5 0 0 0 1 6.5v8a.5.5 0 0 0 1 0v-8A1.5 1.5 0 0 1 3.5 5h9.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4z"/>
+                </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
-    
+  </section>
     
 </body>
 </html>

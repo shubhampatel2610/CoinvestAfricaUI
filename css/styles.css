@@ -2,7 +2,7 @@ body{
     background: rgb(175, 175, 175);
 }
 
-.home{
+.home-section{
     height: 100vh;
     background: #252525;
     background-image: url("../public/home_bg_image.jpg");
@@ -82,15 +82,75 @@ body{
 }
 
 .profile-name{
-    height: 20%;
+    height: 22%;
     background-image: linear-gradient(to right, rgb(110, 92, 0) , rgb(255, 187, 0), rgb(110, 92, 0));
     color: white;
     padding-left: 20rem;
 }
 
 .profile-status{
-    height: 45%;
+    height: 50%;
     background: #252525;
     color: white;
     padding-left: 35rem;
+}
+
+.card{
+    width: 90% !important;
+    border: 0px;
+    background: rgb(213, 213, 213);
+}
+
+.left-section .card-header{
+    background: #252525;
+    color: white;
+}
+
+.right-section .card-header{
+    background-image: linear-gradient(to right, rgb(110, 92, 0) , rgb(255, 187, 0), rgb(110, 92, 0));
+    color: white;
+}
+
+.right-section a{
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 6%;
+    background-image: radial-gradient(rgba(0, 70, 0, 0.2) , rgba(0, 130, 0, 0.4), rgba(0, 70, 0, 0.2));
+}
+
+.right-section a:hover{
+    background-image: radial-gradient(rgba(0, 130, 0, 0.4) , rgba(0, 70, 0, 0.2), rgba(0, 130, 0, 0.4));
+}
+
+.right-section .card-footer{
+    height: 3.3rem;
+}
+
+.btn{
+    background-color: rgb(69, 162, 162);
+    border: none;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(62, 144, 144);
+}
+
+.btn:active{
+    background-color: rgb(69, 162, 162) !important;
+}
+
+.test-title{
+    background-color: rgb(69, 162, 162);
+    color: white;
+    height: 2.5rem;
+}
+
+.test-details{
+    width: 70%;
+}
+
+.test-bar{
+    background-color: grey;
+    height: 2rem;
 }
