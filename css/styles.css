@@ -1,0 +1,96 @@
+body{
+    background: rgb(175, 175, 175);
+}
+
+.home{
+    height: 100vh;
+    background: #252525;
+    background-image: url("../public/home_bg_image.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.custom-navbar{
+    height: 15%;
+    background: #252525;
+    color: white;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 2rem;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.search-icon{
+    color: white;
+}
+
+.custom-navbar li a{
+    border-radius: 50%;
+    background-image: radial-gradient(rgba(0, 70, 0, 0.2) , rgba(0, 130, 0, 0.4), rgba(0, 70, 0, 0.2));
+}
+
+.custom-navbar li a:hover{
+    background-image: radial-gradient(rgba(0, 130, 0, 0.4) , rgba(0, 70, 0, 0.2), rgba(0, 130, 0, 0.4));
+}
+
+.custom-navbar .svg-icons{
+    color: white ;
+}
+
+.search-a:hover{
+    background: white;
+    color: black !important;
+}
+
+.bottom-bar{
+    height: 30%;
+    width: 100%;
+    background: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.bottom-bar img{
+    width: 20%;
+    z-index: 4;
+    position: absolute;
+    bottom: 0;
+}
+
+.custom-search{
+    height: 4rem;
+    width: 20rem;
+    border-radius: 2rem;
+}
+
+.profile-menu{
+    height: 35%;
+    background-image: linear-gradient(to right, rgb(0, 70, 0) , rgb(0, 130, 0), rgb(0, 70, 0));
+    padding-left: 35rem;
+    padding-top: 1rem;
+}
+
+.profile-menu a{
+    text-decoration: none;
+    color: white;
+    margin: 5rem;
+}
+
+.profile-name{
+    height: 20%;
+    background-image: linear-gradient(to right, rgb(110, 92, 0) , rgb(255, 187, 0), rgb(110, 92, 0));
+    color: white;
+    padding-left: 20rem;
+}
+
+.profile-status{
+    height: 45%;
+    background: #252525;
+    color: white;
+    padding-left: 35rem;
+}
